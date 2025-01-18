@@ -1,0 +1,101 @@
+
+.container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #b22222;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Background Colors */
+.about-section {
+    background-color: #fef6f6;
+    border-radius: 10px;
+}
+
+.motivation-section {
+    background-color: #fff4e6;
+    border-radius: 10px;
+}
+
+.sisterhood-section {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.milestones-section {
+    background-color: #fff4e6;
+    border-radius: 10px;
+}
+
+.testimonials-section {
+    background-color: #fef6f6;
+    border-radius: 10px;
+}
+
+.newsletter-section {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+    margin-top: 20px;
+}
+
+.newsletter-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #b22222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.newsletter-button:hover {
+    background-color: #800000;
+}

@@ -1,0 +1,105 @@
+/* General Container */
+.about-container {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url("https://via.placeholder.com/1920x600") no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* Sections */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #b22222;
+    margin-bottom: 30px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission & Vision Features */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature .icon {
+    font-size: 2rem;
+    color: #b22222;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #b22222;
+}
+
+/* Objectives List */
+.objectives-list {
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.objectives-list li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.objectives-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+    color: #b22222;
+    font-weight: bold;
+}
