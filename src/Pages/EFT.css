@@ -1,0 +1,32 @@
+
+.eft-container {
+    font-family: "Arial", sans-serif;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.eft-header h1 {
+    font-size: 2.5rem;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+.eft-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.bank-details h2 {
+    font-size: 2rem;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+.bank-details p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}

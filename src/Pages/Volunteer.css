@@ -1,0 +1,134 @@
+/* General Styling */
+.volunteer-container {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    line-height: 1.8;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.volunteer-hero {
+    text-align: center;
+    background-color: #fef6f6;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.volunteer-hero h1 {
+    font-size: 2.5rem;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+.volunteer-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.volunteer-btn {
+    background-color: #b22222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.volunteer-btn:hover {
+    background-color: #800000;
+    transform: translateY(-3px);
+}
+
+/* Why Volunteer Section */
+.why-volunteer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-volunteer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.reason {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Volunteer Opportunities Section */
+.volunteer-opportunities {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.opportunity {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opportunity:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Volunteer Signup Section */
+.volunteer-signup {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    background-color: #b22222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-color: #800000;
+    transform: translateY(-3px);
+}

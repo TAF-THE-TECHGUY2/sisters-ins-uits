@@ -6,7 +6,6 @@ const Home = () => (
   <>
     {/* Hero Banner */}
     <HeroBanner />
-
     {/* About Section */}
     <section className="container about-section">
       <div className="section-content">
@@ -28,7 +27,6 @@ const Home = () => (
         </div>
       </div>
     </section>
-
     {/* Daily Motivation Section */}
     <section className="container motivation-section">
       <div className="section-content">
@@ -47,13 +45,12 @@ const Home = () => (
         </div>
       </div>
     </section>
-
     {/* Defining Sisterhood Section */}
     <section className="container sisterhood-section">
       <div className="section-content">
         <div className="image-content">
           <img
-            src={`${process.env.PUBLIC_URL}/image/womeninsuit.png`}
+            src={`${process.env.PUBLIC_URL}/image/image5.jpg`}
             alt="Defining Sisterhood"
           />
         </div>
@@ -68,8 +65,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-
-    {/* Milestones Section */}
+    {/* Milestones Section 
     <section className="container milestones-section">
       <div className="section-content">
         <div className="text-content">
@@ -108,8 +104,8 @@ const Home = () => (
         </div>
       </div>
     </section>
-
-    {/* Testimonials Section */}
+    */}
+    {/* Testimonials Section 
     <section className="container testimonials-section">
       <div className="section-content">
         <div className="text-content">
@@ -139,7 +135,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-
+    */}
     {/* Newsletter Subscription Section */}
     <section className="container newsletter-section">
       <div className="section-content">
@@ -163,7 +159,7 @@ const Home = () => (
         </div>
         <div className="image-content">
           <img
-            src={`${process.env.PUBLIC_URL}/image/communitydefintion.jpg`}
+            src={`${process.env.PUBLIC_URL}/image/image7.jpg`}
             alt="About Sisters in Suits"
             style={{
               width: "100%",

@@ -23,11 +23,16 @@ const GetInvolved = () => (
           Whether you are skilled in marketing, event planning, or simply
           passionate about sisterhood, we would love to have you on board!
         </p>
-        <button className="btn-primary">Become a Volunteer</button>
+        <button
+          className="btn-primary"
+          onClick={() => (window.location.href = "/volunteer")}
+        >
+          Become a Volunteer
+        </button>
       </div>
       <div className="image-container">
         <img
-          src={`${process.env.PUBLIC_URL}/image/Volonteer.png`}
+          src={`${process.env.PUBLIC_URL}/image/image3.jpg`}
           alt="Volunteer with SiS"
         />
       </div>
@@ -43,7 +48,12 @@ const GetInvolved = () => (
           resources to enable growth in our organization. Your contribution
           makes a difference. Partner with us in building a sustainable future.
         </p>
-        <button className="btn-primary">Donate Now</button>
+        <button
+          className="btn-primary"
+          onClick={() => (window.location.href = "/Donate")}
+        >
+          Donate Now
+        </button>
       </div>
       <div className="image-container">
         <img

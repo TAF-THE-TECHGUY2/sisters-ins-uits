@@ -24,7 +24,7 @@ const Events = () => (
       </div>
       <div className="image-container">
         <img
-          src={`${process.env.PUBLIC_URL}/image/networking.png`}
+          src={`${process.env.PUBLIC_URL}/image/image4.jpg`}
           alt="Networking and Socializing"
         />
       </div>

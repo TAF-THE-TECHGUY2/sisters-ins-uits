@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "blog",
+    "content": "Jason",
+    "author": "james",
+    "date": "2002-03-07"
+  },
+  {
+    "id": 2,
+    "title": "ff",
+    "content": "sdd",
+    "author": "james",
+    "date": "2025-02-05",
+    "image": "/uploads/1738675494445-download.png"
+  },
+  {
+    "id": 3,
+    "title": "Tafara",
+    "content": "jsskiasklsks",
+    "author": "james",
+    "date": "2025-02-13",
+    "image": "/uploads/1738676927799-download-removebg-preview.png"
+  },
+  {
+    "id": 4,
+    "title": "jack",
+    "content": "iiiiiiiiiiiiiiiiiiiiiiiiiii",
+    "author": "james",
+    "date": "2025-02-06",
+    "image": "/uploads/1738677883718-image1.jpg"
+  }
+]
